@@ -1,6 +1,7 @@
 # Name:Iniyasri S
 # Register No:212223230081
 # 1. Student Attendance Analysis 
+
 A college maintains the daily attendance details of its students in the form of a list containing student IDs. Some students may have attended multiple sessions on the same day. The administration wants to identify the longest continuous sequence of sessions in which no student ID is repeated. Develop a solution that determines the maximum length of such a sequence.
 # code
 ```
@@ -19,6 +20,7 @@ print(maxlen)
 # Output
 <img width="1607" height="485" alt="image" src="https://github.com/user-attachments/assets/7f20011d-b9a2-4cd4-a447-5a5ba6eaa3e6" />
 # 2. Online Shopping Price Analysis
+
 An online shopping application stores the prices of products viewed by a customer during a browsing session. The customer wants to identify a continuous range of products that provides the maximum possible total discount value. Given the discount values, determine the maximum value that can be obtained from any continuous range.
 # code
 ```
