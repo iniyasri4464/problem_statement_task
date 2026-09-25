@@ -109,6 +109,7 @@ print(max_sales_product(sales))
 ```
 # Output
 <img width="1125" height="632" alt="image" src="https://github.com/user-attachments/assets/37105d39-2d7f-4bc3-b63c-247b4ee4a45c" />
+
 # 6. Customer Purchase History
 An e-commerce application stores the product IDs purchased by a customer in chronological order. The same product may appear multiple times. The system needs to determine the longest sequence of consecutive purchases in which every product ID is unique.
 
@@ -166,13 +167,13 @@ def group_employee_skills(skill_codes):
 
     return list(grouped_skills.values())
 
-# Example Usage
 skill_codes = ["python", "typhon", "java", "aavj", "c++"]
 print("Skill groups:", group_employee_skills(skill_codes))
-# Output: [['python', 'typhon'], ['java', 'aavj'], ['c++']]
 ```
 # Output
+
 <img width="1600" height="442" alt="image" src="https://github.com/user-attachments/assets/c4d70693-9328-4fdd-a286-35ee55b9c8f8" />
+
 # 9. Network Packet Analysis
 A network monitoring system receives packet identifiers in chronological order. The system must determine the longest sequence of consecutive packets whose identifiers form a continuous numerical sequence, regardless of their original order in the incoming data
 # code
@@ -195,13 +196,13 @@ def longest_packet_sequence(packet_ids):
 
     return longest_streak
 
-# Example Usage
 packet_ids = [100, 4, 200, 1, 3, 2]
 print(f"Longest continuous sequence length: {longest_packet_sequence(packet_ids)}")
-# Output: 4 (sequence is [1, 2, 3, 4])
 ```
 # Output
+
 <img width="1357" height="577" alt="image" src="https://github.com/user-attachments/assets/d864b792-ba53-4f2d-b2d8-22dd31313767" />
+
 # 10. Hospital Appointment Scheduling
 A hospital receives appointment requests represented by starting and ending times. Some appointments overlap with each other. The scheduling system needs to combine overlapping appointment periods so that the final schedule contains only non-overlapping time ranges
 # code
@@ -231,6 +232,7 @@ for start, end in merged_schedule:
 
 ```
 # Output
+
 <img width="1387" height="615" alt="image" src="https://github.com/user-attachments/assets/e708a269-c148-4725-981b-30c09ae1a757" />
 
 
